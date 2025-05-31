@@ -3,22 +3,22 @@
 /* css til fonte */
 @font-face {
   font-family: "inter";
-  src: url(/projekt/fonts/Inter/static/Inter_18pt-Light.ttf);
+  src: url(/fonts/Inter/static/Inter_18pt-Light.ttf);
 }
 
 @font-face {
   font-family: "serif";
-  src: url(/projekt/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
+  src: url(/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
 }
 
 @font-face {
   font-family: "inria";
-  src: url(/projekt/fonts/Inria_Serif/InriaSerif-Regular.ttf);
+  src: url(/fonts/Inria_Serif/InriaSerif-Regular.ttf);
 }
 
 @font-face {
   font-family: "sans";
-  src: url(/projekt/fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
+  src: url(/fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
 }
 
 h1 {
