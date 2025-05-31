@@ -1,0 +1,10 @@
+/* css til lottie */
+.lottie {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -5em;
+}

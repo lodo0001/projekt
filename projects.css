@@ -1,0 +1,22 @@
+/* css til h2 og billederne */
+h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 a:hover {
+  color: #b86b7a; /* fx din accentfarve ved hover */
+}
+
+.kage,
+.løb {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.kage,
+.løb img {
+  width: 100px;
+  height: auto;
+}
