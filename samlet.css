@@ -1,3 +1,5 @@
+/* Denne css er forside.html ikke med i! */
+
 /* css til fonte */
 @font-face {
   font-family: "inter";
@@ -9,7 +11,25 @@
   src: url(/projekt/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
 }
 
-/* css til menuen */
+@font-face {
+  font-family: "inria";
+  src: url(/projekt/fonts/Inria_Serif/InriaSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "sans";
+  src: url(/projekt/fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
+}
+
+h1 {
+  font-family: "sans";
+}
+
+p {
+  font-family: "inria";
+}
+
+/* css til menuen på de andre sider end forsiden */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -29,7 +49,7 @@ nav {
 
 .logo a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 nav ul {
@@ -42,11 +62,48 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
   color: #a4a39f; /* valgfri hover-effekt */
+}
+
+body {
+  background-color: #e1ccb4;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "serif";
+  font-size: 20px;
+  color: #666666;
+}
+
+footer img {
+  margin-top: 5px;
+  width: 100px;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+.footer-linje {
+  height: 2px;
+  background-color: white;
+  border-color: white;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+/* css til computerne på projekterne */
+.computer-foto a {
+  align-items: center;
 }

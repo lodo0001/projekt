@@ -10,6 +10,59 @@
 }
 /* z-index øverst her, kan hjælpe med at kontrollere lagene */
 
+/* css til fonte */
+@font-face {
+  font-family: "inter";
+  src: url(/projekt/fonts/Inter/static/Inter_18pt-Light.ttf);
+}
+
+@font-face {
+  font-family: "serif";
+  src: url(/projekt/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
+}
+
+/* css til forside menuen */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute; /* så den ligger over video */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.logo {
+  font-family: "serif";
+  padding: 2rem;
+  font-size: xx-large;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  font-family: "inter";
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #a4a39f; /* valgfri hover-effekt */
+}
+
 .main {
   position: relative;
   width: 100vw;
