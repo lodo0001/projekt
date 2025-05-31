@@ -1,0 +1,94 @@
+/* css til bagrunds video'en */
+#baggrunds-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}
+/* z-index øverst her, kan hjælpe med at kontrollere lagene */
+
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* css til billedet af mig selv og de små tegninger */
+.midten {
+  position: relative;
+  text-align: center;
+  animation: float 6s ease-in-out infinite;
+}
+
+.midten img {
+  width: 350px;
+  z-index: 2;
+  padding-top: 4rem;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* css til computeren, pas og telfonen */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.button img {
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.button img:hover {
+  transform: scale(1.2);
+}
+
+#projects {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  text-align: center;
+  width: 400px;
+}
+
+#projects p {
+  color: white;
+  font-family: "inter";
+}
+
+#mig {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  text-align: center;
+}
+
+#mig p {
+  color: white;
+  font-family: "inter";
+}
+
+#telefon {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  text-align: center;
+}
+
+#telefon p {
+  color: white;
+  font-family: "inter";
+}
