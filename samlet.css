@@ -3,30 +3,36 @@
 /* css til fonte */
 @font-face {
   font-family: "inter";
-  src: url(/fonts/Inter/static/Inter_18pt-Light.ttf);
+  src: url(fonts/Inter/static/Inter_18pt-Light.ttf);
 }
 
 @font-face {
   font-family: "serif";
-  src: url(/fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
+  src: url(fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
 }
 
 @font-face {
   font-family: "inria";
-  src: url(/fonts/Inria_Serif/InriaSerif-Regular.ttf);
+  src: url(fonts/Inria_Serif/InriaSerif-Regular.ttf);
 }
 
 @font-face {
   font-family: "sans";
-  src: url(/fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
+  src: url(fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
 }
 
 h1 {
   font-family: "sans";
+  padding-left: 8rem;
+  font-size: xx-large;
 }
 
 p {
   font-family: "inria";
+  font-size: large;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  word-spacing: 0.1cap;
 }
 
 /* css til menuen på de andre sider end forsiden */
@@ -104,6 +110,9 @@ footer img:hover {
 }
 
 /* css til computerne på projekterne */
-.computer-foto a {
-  align-items: center;
+.computer-foto {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 2rem;
 }
